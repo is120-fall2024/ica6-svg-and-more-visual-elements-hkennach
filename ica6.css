@@ -73,7 +73,7 @@ header {
 }
 
 .header-row a:hover {
-  color: #ff0000;
+  color: #D38F22;
 }
 .hero {
   height: 90vh;
@@ -116,7 +116,7 @@ header {
   margin: 3vh;
   padding: 1vh 1vw;
   width: 40%;
-  background-color: #ff0000;
+  background-color: #D38F22;
   color: var(--secondary);
   font-size: 1.2em;
   font-weight: bold;
@@ -128,7 +128,7 @@ header {
 
 .right-button button:hover {
   background-color: #000000;
-  color: #ff0000;
+  color: #D38F22;
   transform: scale(1.1);
 }
 
@@ -152,5 +152,18 @@ section .iframe {
 .hw6-container {
   height: 100vh;
   background-color: var(--secondary);
+}
+
+.bottom-svg-wave {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.bottom-svg-wave img {
+  display: block;
+  width: 100%; 
+  height: auto;
+  margin: 0;
 }
 
