@@ -69,8 +69,12 @@ header {
   font-size: 1.5em;
   margin-left: 3vw;
   text-decoration: none;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
+.header-row a:hover {
+  color: #ff0000;
+}
 .hero {
   height: 90vh;
   background-color: rgb(var(--secondary-rgb));
@@ -112,8 +116,21 @@ header {
   margin: 3vh;
   padding: 1vh 1vw;
   width: 40%;
+  background-color: #ff0000;
+  color: var(--secondary);
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
+.right-button button:hover {
+  background-color: #000000;
+  color: #ff0000;
+  transform: scale(1.1);
+}
 
 .iframe-container {
   display: flex;

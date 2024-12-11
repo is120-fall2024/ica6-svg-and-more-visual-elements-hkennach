@@ -10,7 +10,12 @@
   <header>
     <div class="header-row">
       <!-- [Q1. Draw an svg logo and put it as the .header-logo div. Wrap the svg in an <a> with href referencing this page ] -->
-      <div class="header-logo">LOGO GOES HERE</div>
+      <div class="header-logo"><a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="35" fill="#ff0000" />
+          <text x="50" y="65" font-family="Impact" font-size="40" text-anchor="middle" fill="white">H</text>
+        </svg>
+      </a></div>
       <nav>
         <ul>
           <li><a href="#hero">hero</a></li>
@@ -22,10 +27,18 @@
   
   <section class="hero" id="hero">
     <!-- [Q2. use a <video> to insert a video to autoplay. ] -->
-    <div class="left-video">Insert Video Here</div>
+    <div class="left-video">
+      <video autoplay muted loop width="100%" height="auto">
+      <source src="350Z.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption>Nissan 350Z Roller Video</figcaption></div>
     <div class="right-content">
       <!-- [Q2 cont. Add paragraph text to the div below about the video you choose. ] -->
-      <div class="right-text"></div>
+      <div class="right-text">
+        <p>
+        The Nissan 350Z is an iconic sports car. It is powered by a 3.5 liter V6 engine and this specific one features a 6-speed manual transmission. It is wrapped matte carmine red and sitting on Cosmis XT-206R wheels.
+        </p></div>
       <div class="right-button">
         <!-- [Q3. Style this button both for original styles and for the styles to change :onhover. ] -->
         <button>Style this button!</button>
